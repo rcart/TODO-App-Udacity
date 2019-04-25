@@ -1,1 +1,24 @@
 /* Here goes your styling */
+html {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+title {
+    
+}
+
+
+
+ /* Hey buddy, feel free to edit the html file if you need to ;) got it */
