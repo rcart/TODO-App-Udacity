@@ -15,11 +15,17 @@ body {
     font-family: Verdana, Geneva, sans-serif;
 }
 
+.todo-title {
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+}
+
 .list {
     margin-left: 20%;
     margin-right: 20%;
 }
 
+.list
 
 
 

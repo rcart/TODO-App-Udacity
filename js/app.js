@@ -17,10 +17,10 @@ addItem.addEventListener('click', function (e) {
   // remember, item is the reference to the input, so once you click the btn, add the input to the list.
   // Or push it to your array to keep them safe
   // I would check the input to not be empty, like this:
-  if (!item.value === "") {      
+  if (!!item.value) {
     myToDos.push(item.value);
     alert(`Your ToDo was saved!`);
-    displayToDo(); // Nice!
+    displayTodo(); // Nice! He's not editing any file, I can ask him now.
     item.value = "";
     item.focus();
   } else {
@@ -35,3 +35,5 @@ function displayTodo() {
   li.appendChild(newItem); //awesome
   todoList.appendChild(li); //great This will keep adding them to the list Right! sorry xD
   } 
+
+  // Hey Paul!yes, you had a lot of typos XD
