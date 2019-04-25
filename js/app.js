@@ -13,10 +13,10 @@ let myToDos = [];
 
 
 addItem.addEventListener('click', function (e) {
-  if (!!item.value) {
+  if (!!item.value) {  //What is this double ! means?
     myToDos.push(item.value);
-    alert(`Your ToDo was saved!`);
     displayTodo();
+    alert(`Your ToDo was saved!`);
     item.value = "";
     item.focus();
   } else {
@@ -26,7 +26,7 @@ addItem.addEventListener('click', function (e) {
 });
 
 function displayTodo() {
-  let li = document.createElement('li'); //perfect
+  let li = document.createElement('li');
   const newItem = document.createTextNode(item.value);
   li.appendChild(newItem);
   todoList.appendChild(li);
