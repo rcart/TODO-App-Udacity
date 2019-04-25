@@ -16,7 +16,6 @@ addItem.addEventListener('click', function (e) {
   if (!!item.value) {  //What is this double ! means?
     myToDos.push(item.value);
     displayTodo();
-    alert(`Your ToDo was saved!`);
     item.value = "";
     item.focus();
   } else {
